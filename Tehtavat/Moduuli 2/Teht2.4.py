@@ -3,7 +3,6 @@
 #Tarviinko edes tätä?? En tarvinnut, toimii ilmankin.
 import math
 
-
 #Kysytään arvot kolmelle luvulle
 luku1 = float(input("luku1: "))
 luku2 = float(input("luku2: "))
@@ -20,6 +19,4 @@ print(f"tulo: {tulo:.2f}")
 #Keskiarvo luvuille tulostettuna
 keskiarvo = summa / 3
 print(f"keskiarvo: {keskiarvo:.2f}")
-
-
 
