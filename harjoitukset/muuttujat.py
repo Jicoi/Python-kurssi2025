@@ -1,4 +1,4 @@
-#kokonaisluki, integer, INT
+#kokonaisluku, integer, INT
 eka = -9
 
 #kokonaisluku pitkä, long

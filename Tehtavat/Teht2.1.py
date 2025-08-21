@@ -2,7 +2,4 @@
 
 Name = input("Mikä sinun nimesi on?")
 
-print(f"Terve, {Name} ")
-
-
-
+print(f"Terve, {Name}!")
