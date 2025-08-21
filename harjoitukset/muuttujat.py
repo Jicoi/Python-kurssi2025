@@ -16,3 +16,10 @@ print(toka)
 print(kolmas)
 print(neljas)
 
+pituus = int(input("Pituus: "))
+paino = float(input("Paino: "))
+
+#Muuttuja jossa laksu suoritetaan
+bmi = paino / (pituus / 100) ** 2
+print("pituus-paino-indeksi on", bmi)
+print(f"BMI on {bmi:.2f}")
