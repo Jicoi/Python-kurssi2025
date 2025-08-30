@@ -1,4 +1,5 @@
 #Tehtävä 3.4
+#ohjelma, joka kysyy vuosiluvun ja ilmoittaa, onko annettu vuosi karkausvuosi.
 
 #Kysytään käyttäjältä vuosilukua.
 vuosi = int(input("Anna vuosiluku: "))

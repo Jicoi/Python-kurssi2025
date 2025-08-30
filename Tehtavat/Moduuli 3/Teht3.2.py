@@ -1,4 +1,5 @@
 #Tehtävä 3.2
+#ohjelma, joka kysyy käyttäjältä laivan hyttiluokan (LUX, A, B, C) ja tulostaa sen sanallisen kuvauksen
 
 #Kysytään asiakkaalta hänen hyttiään. Muutetaan asiakkaan syöttämä arvo aina isoksi kirjaimeksi.
 hytti = input("Syötä hyttisi: ").upper()

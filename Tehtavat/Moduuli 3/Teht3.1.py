@@ -1,5 +1,5 @@
 #Tehtävä 3.1
-
+#ohjelma, joka kysyy kalastajalta kuhan pituuden senttimetreinä ja ilmoittaa onko kala sallituissa mitoissa.
 
 #Kysytään kuhan mitta
 kala = float(input("Kala on: "))

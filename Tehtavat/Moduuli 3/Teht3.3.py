@@ -1,4 +1,6 @@
 #Tehtävä 3.3
+#ohjelma, joka kysyy käyttäjän biologisen sukupuolen ja hemoglobiiniarvon (g/l).
+#Ohjelma ilmoittaa, onko hemoglobiiniarvo alhainen, normaali vai korkea.
 
 #kysytään sukupuoli ja hemoglobiiliarvo
 bio = input("Syötä biologinen sukupuolesi: ").lower()
