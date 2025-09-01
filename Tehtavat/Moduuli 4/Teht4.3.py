@@ -12,11 +12,12 @@ pienin = int(luku)
 #Määritetään että luvun täytyy olla eri kuin tyhjä. Vertaillaan arvojen suuruuksia.
 while luku != "":
     print(luku)
-    if int(luku) > pienin:
+    if int(luku) < pienin:
         pienin = int(luku)
-    if int(luku) < suurin:
+    if int(luku) > suurin:
         suurin = int(luku)
     luku = (input("Syötä luku: "))
 
-print(f"{pienin}  ja  {suurin}")
+#Ilmoitetaan käyttäjälle pienin ja suurin arvo.
+print(f"Pienin luku {pienin} ja suurin luku {suurin}")
 
