@@ -29,3 +29,4 @@ while yritykset < 5:
     yritykset += 1
     print(yritykset)
 print("Pääsy evätty")
+
