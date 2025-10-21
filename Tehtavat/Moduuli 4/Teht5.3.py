@@ -3,11 +3,11 @@
 
 #Tehdään funktion, joka tarkastaa onko saatu arvo alkuluku.
 def alkuluku(luku):
-    if luku < 2:
+    if luku < 2:                                    #(alkuluku täytyy olla suurempi kuin 2 T. WIKIPEDIA
         print("luku on alkuluku")
     for i in range(2, int(luku ** 0.5) + 1):
         if luku % i == 0:
-            return False #en saanut toimimaan print("ei ole alkuluku")
+            return False                            #en saanut toimimaan print("ei ole alkuluku")
     return True
 
 
